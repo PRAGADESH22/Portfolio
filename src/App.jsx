@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hearo/Hero";
 import Aboutme from "./Components/About/Aboutme";
 import Services from "./Components/Services/Services";
+import Contact from "./Components/Contact/Contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Hero/>
     <Aboutme/>
     <Services/>
+    <Contact/>
     </>
   );
 }
