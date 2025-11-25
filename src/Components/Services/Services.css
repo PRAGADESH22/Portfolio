@@ -1,0 +1,80 @@
+.Services {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.service-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.service-title h1 {
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.service-title h1:hover {
+  transform: scale(1.05);
+}
+.service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 0 20px 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+.service-content {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  gap: 1px;
+  padding: px;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  transition: all 0.5s;
+}
+.service-content:hover {
+  background: rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  color: #fff; /* text becomes white */
+  transform: all 0.5s;
+}
+.service-content h2 {
+  background: linear-gradient(235deg, #ff7a00, #9d00ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0;
+}
+.service-content p {
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  padding: 0 5px;
+  text-align: center;
+}
+.service-readmore {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  border: 1px solid rgb(238, 199, 199);
+  padding: 3px;
+  border-radius: 5px;
+}
+.service-readmore:hover {
+  transform: scale(1.01);
+  color: rgba(255, 0, 0, 0.863);
+  font-weight: 700;
+}
