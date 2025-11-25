@@ -80,11 +80,11 @@
 }
 .about-achievments {
   display: flex;
-  align-items: center;
+  align-items: start;
   width: 100%;
   margin-bottom: 50px;
-  margin-top: 30px;
-  padding: 0 15px 0 15px;
+  margin-top: 40px;
+  padding: 0 20px 0 20px;
   font-size: 14px;
   justify-content: space-around;
   gap: 20px;
@@ -96,9 +96,8 @@
 }
 .about-achievement p {
   width: 200px;
-  font-weight: 600;
+  font-weight: 500;
   background: linear-gradient(90deg, #ff9100, #c63eff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-

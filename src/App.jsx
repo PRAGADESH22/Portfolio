@@ -6,18 +6,19 @@ import Hero from "./Components/Hearo/Hero";
 import Aboutme from "./Components/About/Aboutme";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
-
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Aboutme/>
-    <Services/>
-    <Contact/>
+      <Navbar />
+      <Hero />
+      <Aboutme />
+      <Services />
+      <Contact />
+      <Footer />
     </>
   );
 }

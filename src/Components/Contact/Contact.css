@@ -1,9 +1,9 @@
 .contact {
   display: flex;
   flex-direction: column;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  width: 100%;
   margin-top: 80px;
 }
 .contact-title {
@@ -22,26 +22,27 @@
 }
 .contact-session {
   display: flex;
-  padding: 0 30px;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
   align-items: center;
 }
 .contact-left {
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 .contact-left h1 {
   background: linear-gradient(265deg, orange, rgb(238, 103, 238));
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 2.5rem;
 }
 .contact-left p {
   font-weight: 400;
   letter-spacing: 1.5px;
-  line-height: 35px;
-  max-width: 550px;
+  line-height: 30px;
+  max-width: 500px;
   margin-bottom: 10px;
 }
 .contact-details {
@@ -49,11 +50,60 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 15px;
+  gap: 10px;
 }
 .contact-detail {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.contact-right label {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact-right input {
+  border: none;
+  height: 25px;
+  width: 500px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: outfit;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 4px;
+}
+.contact-right textarea {
+  border: none;
+  height: 100px;
+  width: 500px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: outfit;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 4px;
+}
+.submit-button {
+  border: none;
+  color: white;
+  width: max-content;
+  justify-items: center;
+  background: linear-gradient(264deg, #df8905 -5.09%, #b415ff 106.28%);
+  font-size: 17px;
+  padding: 15px 40px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 20px 0 20px 0;
+  transition: transform 0.3s ease;
+}
+.submit-button:hover {
+  transform: scale(1.05);
 }
