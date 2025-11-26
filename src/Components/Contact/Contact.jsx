@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import contact_mail from "../../assets/contact-mail.png";
 import mail from "../../assets/mail.png";
@@ -6,6 +6,30 @@ import phone from "../../assets/phone-contact.png";
 import location from "../../assets/location.png";
 
 const Contact = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+    formData.append("access_key", "4132ff59-ecea-4811-9fc7-c3135fc89bbb");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+    if (data.success) {
+      setTimeout(() => {
+        alert("Form Submitted Successfully");
+      }, 2000);
+      event.target.reset();
+    } else {
+      setResult("Error");
+    }
+  };
+
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
@@ -47,7 +71,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form className="contact-right">
+        <form onSubmit={onSubmit} className="contact-right">
           <label htmlFor="">Your name</label>
           <input type="text" name="name" placeholder="Enter your name" />
           <label htmlFor="">Your Email</label>
