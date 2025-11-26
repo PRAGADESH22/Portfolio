@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="contact-session">
         <div className="contact-left">
           <h1>Let's talk</h1>
-          <p>Questions, collaborations, or just saying hi - contact me here!</p>
+          <p>Questions, collaborations, or just saying Hi - contact me here!</p>
           <div className="contact-details">
             <div className="contact-detail">
               <img
@@ -43,7 +43,7 @@ const Contact = () => {
                 alt=""
                 style={{ height: "32px", width: "32px" }}
               />
-              <p>Tamilnadu.</p>
+              <p>Tamilnadu</p>
             </div>
           </div>
         </div>
