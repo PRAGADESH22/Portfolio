@@ -23,7 +23,7 @@ const Contact = () => {
     if (data.success) {
       setTimeout(() => {
         alert("Form Submitted Successfully");
-      }, 2000);
+      }, 500);
       event.target.reset();
     } else {
       setResult("Error");
