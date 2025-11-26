@@ -27,6 +27,13 @@
   transition: transform 0.8s linear;
   cursor: pointer;
 }
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease;
+}
 .nav-menu li:hover {
   transform: scale(1.1);
 }
@@ -43,4 +50,8 @@
   transform: scale(1.08);
   background: transparent;
   border: 1px solid red;
+}
+.anchor-link{
+  text-decoration: none;
+  color: inherit;
 }

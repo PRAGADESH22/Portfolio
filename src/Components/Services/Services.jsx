@@ -5,7 +5,7 @@ import skill from "../../assets/skill.png";
 import arrow from "../../assets/white arrow.png";
 const Services = () => {
   return (
-    <div className="Services">
+    <div id="services" className="Services">
       <div className="service-title">
         <h1>My Skills</h1>
         <img src={skill} alt="" style={{ height: "96px", width: "96px" }} />

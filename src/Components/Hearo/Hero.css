@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 55px;
   gap: 15px;
 }
 .hero img {
   height: 250px;
   width: auto;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   /* border: 2px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -24,7 +24,7 @@
   text-align: center;
   width: 70%;
   font-size: 16px;
-  line-height: 30px
+  line-height: 35px;
 }
 .hero-about span {
   background: linear-gradient(90deg, #6a5af9, #f95a5a);
@@ -37,6 +37,8 @@
   text-align: center;
   width: 50%;
   letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 .hero-contact {
   display: flex;
@@ -62,8 +64,7 @@
   border-radius: 10px;
   transition: transform 0.8s linear;
 }
-.hero-contact p:nth-child(2):hover{
-    border-color: red;
-    transform: scale(1.02);
-    
+.hero-contact p:nth-child(2):hover {
+  border-color: red;
+  transform: scale(1.02);
 }
