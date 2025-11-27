@@ -68,3 +68,33 @@
   border-color: red;
   transform: scale(1.02);
 }
+@media(max-width: 768px) {
+  .hero img{
+    height: 200px;  
+    width: 200px;
+  }
+  .hero-about {
+    width: 80%;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .aboutme-content {
+    width: 70%;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .hero-contact {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .hero-contact p:nth-child(2):hover {
+  border-color: red;
+  transform: scale(1.02);
+}
+.hero-contact p:first-child:hover {
+  transform: scale(1.05);
+  background: white;
+  color: black;
+  font-weight: 600;
+}
+}
