@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-bottom: 10px;
 }
 .footer-top {
@@ -69,6 +69,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  margin-bottom: 20px;
+
 }
 .footer-bottom-left {
   font-weight: 500;
@@ -86,4 +88,10 @@
   display: flex;
   gap: 20px;
   color: #8b7f7f;
+  transition:  transform 0.3s ease;
+}
+.footer-bottom-right p:hover{
+  color: white;
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
