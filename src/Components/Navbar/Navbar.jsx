@@ -14,6 +14,7 @@ const Navbar = () => {
   };
   let closeMenu = () => {
     menuRef.current.style.right = "-350px";
+    menuRef.current.style.transition = "all 0.5s ease";
   };
 
   let [menu, setmenu] = useState(" ");

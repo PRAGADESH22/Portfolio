@@ -18,9 +18,9 @@
 .navbar-logoP {
   display: none;
 }
-  .imgage-wrap{
-    display: none;
-  }
+.imgage-wrap {
+  display: none;
+}
 .nav-logo:hover {
   transform: scale(1.1);
 }
@@ -75,13 +75,15 @@
     position: relative;
     height: 60px;
     background: transparent;
+
+    overflow: visible;
   }
-  .imgage-wrap{
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-style: oblique;
-}
+  .imgage-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-style: oblique;
+  }
   .navbar-logoP {
     display: block;
     position: relative;
@@ -99,7 +101,6 @@
     right: -380px;
   }
   .nav-menu {
-    position: fixed;
     flex-direction: column;
     position: relative;
     right: 0px;
