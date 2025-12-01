@@ -80,3 +80,31 @@
   color: rgba(255, 0, 0, 0.863);
   font-weight: 700;
 }
+@media (max-width: 768px) {
+  .Services {
+    width: 100%;
+  }
+  .service-container {
+    margin: 15px;
+  }
+  .service-content {
+    margin: auto;
+    gap: 20px;
+
+    width: auto;
+    height: 250px;
+  }
+  .service-container h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  .service-container p {
+    font-size: 14px;
+  }
+  .service-readmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

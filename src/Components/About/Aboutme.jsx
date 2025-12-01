@@ -61,7 +61,7 @@ const Aboutme = () => {
         <div className="about-achievement">
           <p>Actively exploring backend development with node.JS & Express</p>
         </div>
-        <hr style={{ height: "50px" }} />
+        <hr style={{ height: "50px" }} className="lastHr" />
 
         <div className="about-achievement">
           <p>Focus on become full stack developer</p>

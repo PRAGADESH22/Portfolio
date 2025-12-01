@@ -48,7 +48,7 @@ const Contact = () => {
             <div className="contact-detail">
               <img
                 src={mail}
-                alt=""
+                alt="mail"
                 style={{ height: "32px", width: "32px" }}
               />
               <p>pragdeshpragadesh00@gmail.com</p>

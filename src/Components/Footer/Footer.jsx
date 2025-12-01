@@ -5,7 +5,7 @@ import user from "../../assets/user-email.png";
 
 const Footer = () => {
   return (
-    <div  id="footer" className="footer">
+    <div id="footer" className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
           <img

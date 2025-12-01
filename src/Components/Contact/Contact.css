@@ -108,3 +108,47 @@
 .submit-button:hover {
   transform: scale(1.05);
 }
+@media (max-width: 768px) {
+  .contact-session {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 65px;
+    gap: 50px;
+  }
+  .contact-left p {
+    max-width: 768px;
+    margin-bottom: 20px;
+  }
+  .contact-details {
+    gap: 5px;
+  }
+  .contact-detail {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+  }
+  .contact-detail p {
+    text-align: center;
+  }
+  .contact-session .contact-left h1 {
+    font-size: 2rem;
+  }
+   .contact-right input{
+    height: 35px;
+   }
+  .contact-right input,
+  .contact-right textarea {
+    width: 680px;
+    
+  }
+  .contact-right label {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+  }
+  .submit-button{
+    width: 150px;
+    height: 45px;
+    padding: 1px 20px;
+  }
+}
