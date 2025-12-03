@@ -18,7 +18,7 @@ const Hero = () => {
           I'm a frontend developer passionate about creating clean, modern, and
           user-focused web experiences.
         </p>
-      </div>  
+      </div>
       <div className="hero-contact">
         <p>
           <AnchorLink href="#contact" offset={50} className="anchor-link">
