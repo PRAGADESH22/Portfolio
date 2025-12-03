@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hearo/Hero";
+import Hero from "./Components/Hero/Hero";
 import Aboutme from "./Components/About/Aboutme";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
