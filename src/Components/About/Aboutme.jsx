@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "../../assets/theme-pattern.png";
-import hero from "../../assets/hero.jpg";
+import hero from "../../assets/Hero.jpg";
 import "./Aboutme.css";
 
 const Aboutme = () => {
