@@ -34,11 +34,7 @@ const Contact = () => {
     <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get in Touch</h1>
-        <img
-          src={contact_mail}
-          alt=""
-          style={{ height: "64px", width: "64px" }}
-        />
+        <img src={contact_mail} alt="" style={{ height: "64px", width: "64px" }} />
       </div>
       <div className="contact-session">
         <div className="contact-left">
@@ -46,27 +42,15 @@ const Contact = () => {
           <p>Questions, collaborations, or just saying Hi - contact me here!</p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img
-                src={mail}
-                alt="mail"
-                style={{ height: "32px", width: "32px" }}
-              />
+              <img src={mail} alt="mail" style={{ height: "32px", width: "32px" }} />
               <p>pragdeshpragadesh00@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img
-                src={phone}
-                alt=""
-                style={{ height: "32px", width: "32px" }}
-              />
+              <img src={phone} alt="" style={{ height: "32px", width: "32px" }} />
               <p>880711**</p>
             </div>
             <div className="contact-detail">
-              <img
-                src={location}
-                alt=""
-                style={{ height: "32px", width: "32px" }}
-              />
+              <img src={location} alt="" style={{ height: "32px", width: "32px" }} />
               <p>Tamilnadu</p>
             </div>
           </div>
@@ -77,11 +61,7 @@ const Contact = () => {
           <label htmlFor="">Your Email</label>
           <input type="email" name="email" placeholder="Enter your email" />
           <label htmlFor="">Write your message</label>
-          <textarea
-            name="message"
-            placeholder="Enter your message"
-            rows={8}
-          ></textarea>
+          <textarea name="message" placeholder="Enter your message" rows={8}></textarea>
           <button type="submit" className="submit-button">
             Submit now
           </button>
